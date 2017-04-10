@@ -1,34 +1,47 @@
-Run these following commands:
+### Steps to setup latest moodle on a docker based LAMP environment:
 
 1. Pull moodle image: 
-`docker pull ymnoor21/moodle`
+
+   `docker pull ymnoor21/moodle`
 
 2. Create container and note the container id after running this command:
-`docker run -d -p 8080:8080 ymnoor21/moodle`
+
+   `docker run -d -p 8080:8080 ymnoor21/moodle`
 
 3. Replace the container id with: 
-`docker exec -it <container id from step 2> /bin/bash`
+
+   `docker exec -it <container id from step 2> /bin/bash`
 
 4. You will be taken to the container shell prompt. Now type the following command and press enter:
-`./init.sh`
+
+   `./init.sh`
 
 5. It will install all the necessary software and setup moodle environment.
 
-6. After the installation finishes. Browse `http://localhost:8080/moodle/`
+6. After the installation finishes. Browse 
+
+   `http://localhost:8080/moodle/`
 
 7. You'll see moodle installation page. Press Next.
 
-8. Change "Data directory" from `/var/www/moodledata` to `/var/moodledata`
+8. Change "Data directory" from 
+
+   `/var/www/moodledata` to `/var/moodledata`
 
 9. Press Next.
 
 10. Press Next.
 
 11. Change settings if you need to:
+
 	a. Database host: `localhost`
+	
 	b. Database name: `moodle`
+	
 	c. Database user: `moodle`
+	
 	d. Database password: `moodle`
+	
 	e. Database port: `3306`
 
 12. Press Next.
