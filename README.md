@@ -1,6 +1,7 @@
 Run these following commands:
 
-1. Pull moodle image: docker pull ymnoor21/moodle
+1. Pull moodle image: 
+`docker pull ymnoor21/moodle`
 
 2. Create container and note the container id after running this command:
 `docker run -d -p 8080:8080 ymnoor21/moodle`
