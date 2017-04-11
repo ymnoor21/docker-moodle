@@ -5,6 +5,8 @@
 
 2. CD into docker-moodle/ directory.
 
+   `cd docker-moodle/`
+
 3. Build the image: 
 
    `docker build -t moodle .`
