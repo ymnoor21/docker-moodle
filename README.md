@@ -1,7 +1,7 @@
 ### Steps to setup latest moodle on a docker based LAMP environment:
 1. On your local machine run this git command:
 
-`git clone https://github.com/ymnoor21/docker-moodle.git`
+   `git clone https://github.com/ymnoor21/docker-moodle.git`
 
 2. CD into docker-moodle/ directory.
 
